@@ -1,0 +1,6 @@
+name: prueba2-${ALUMNO}
+services:
+  web:
+    build: web/index.html
+    image: rec-web-p07:2.0
+    ports: [8080]
